@@ -1,1 +1,2 @@
 # landslide_susceptibility_mapping
+This project uses machine learning to map landslide susceptibility along a highway corridor in Nepal. Terrain, hydrological and rainfall factors were processed in QGIS and used to train an XGBoost classifier. The final output is a susceptibility raster classified into five zones from very low to very high. The project acknowledges limitations around synthetic training data and slope bias and documents these transparently for future improvement.
